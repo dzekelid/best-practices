@@ -1,0 +1,17 @@
+title: Streamdata Gallery Best Practices
+url: best-practices.streamdata.gallery
+tag: Best Practices
+markdown: kramdown
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
+github_user: streamdata-gallery
+github_repo: best-practices
+github_branch: master
+collections:
+  listings:
+    output: true
+    permalink: /listings/:path/
+defaults:
+  - scope:
+      type: listings
+    values:
+      layout: listings
